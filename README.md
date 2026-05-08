@@ -14,7 +14,7 @@ Laravel + Vue.js, запускается через Docker.
 
 ```bash
 git clone https://github.com/SpoNNN/route_deploy2.git
-cd project
+cd route_deploy2
 cp .env.example .env
 ```
 
@@ -30,6 +30,7 @@ DB_PASSWORD=secret
 
 ```bash
 docker compose up -d --build
+docker compose exec app composer install
 docker compose exec app php artisan key:generate
 ```
 
