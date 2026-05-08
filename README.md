@@ -13,7 +13,7 @@ Laravel + Vue.js, запускается через Docker.
 ## Запуск
 
 ```bash
-git clone https://github.com/you/project.git
+git clone https://github.com/SpoNNN/route_deploy2.git
 cd project
 cp .env.example .env
 ```
