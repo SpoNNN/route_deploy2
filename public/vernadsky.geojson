@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [55.932303, 54.718424, 55.938227, 54.721286],
+  "features": [
+    {
+      "bbox": [55.932303, 54.718424, 55.938227, 54.721286],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 694.9,
+            "duration": 70.2,
+            "steps": [
+              {
+                "distance": 209.7,
+                "duration": 27.7,
+                "type": 11,
+                "instruction": "Head north on улица Карла Маркса",
+                "name": "улица Карла Маркса",
+                "way_points": [0, 2]
+              },
+              {
+                "distance": 394.5,
+                "duration": 31.6,
+                "type": 0,
+                "instruction": "Turn left onto улица Заки Валиди",
+                "name": "улица Заки Валиди",
+                "way_points": [2, 7]
+              },
+              {
+                "distance": 90.7,
+                "duration": 10.9,
+                "type": 6,
+                "instruction": "Continue straight onto улица Заки Валиди",
+                "name": "улица Заки Валиди",
+                "way_points": [7, 10]
+              },
+              {
+                "distance": 0,
+                "duration": 0,
+                "type": 10,
+                "instruction": "Arrive at улица Заки Валиди, on the right",
+                "name": "-",
+                "way_points": [10, 10]
+              }
+            ]
+          },
+          {
+            "distance": 179.5,
+            "duration": 14.4,
+            "steps": [
+              {
+                "distance": 179.5,
+                "duration": 14.4,
+                "type": 11,
+                "instruction": "Head east on улица Заки Валиди",
+                "name": "улица Заки Валиди",
+                "way_points": [10, 14]
+              },
+              {
+                "distance": 0,
+                "duration": 0,
+                "type": 10,
+                "instruction": "Arrive at улица Заки Валиди, on the right",
+                "name": "-",
+                "way_points": [14, 14]
+              }
+            ]
+          }
+        ],
+        "summary": { "distance": 874.4, "duration": 84.60000000000001 },
+        "way_points": [0, 10, 14]
+      },
+      "geometry": {
+        "coordinates": [
+          [55.937383, 54.718424],
+          [55.938192, 54.720153],
+          [55.938227, 54.720246],
+          [55.935278, 54.72073],
+          [55.934696, 54.720842],
+          [55.934139, 54.72098],
+          [55.933557, 54.721089],
+          [55.932359, 54.721286],
+          [55.932303, 54.721173],
+          [55.933297, 54.721019],
+          [55.933467, 54.720985],
+          [55.934538, 54.720776],
+          [55.935126, 54.720672],
+          [55.935241, 54.720651],
+          [55.936131, 54.720496]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1733471612917,
+    "query": {
+      "coordinates": [
+        [55.937071, 54.718473],
+        [55.93341, 54.720888],
+        [55.936081, 54.720401]
+      ],
+      "profile": "driving-car",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "8.2.0",
+      "build_date": "2024-10-09T09:23:42Z",
+      "graph_date": "2024-09-23T14:39:49Z"
+    }
+  }
+}
